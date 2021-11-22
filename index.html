@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+        <title></title>
+        <script>
+        var a = prompt('Введите значение A');
+        var c = prompt('Введите значение модуля');
+        var m = 0;
+        a=Number(a);
+        c=Number(c);
+        for (var i = 0; i < c; i++){
+            if (a*i%c==1){
+                m=i;
+                alert(a+'*'+ i+'=1'+'(mod'+c+')')
+            }
+        }
+        if(m==0){
+            alert('Обратных чисел - нет')
+        }
+        </script>
+</body>
+</html>
